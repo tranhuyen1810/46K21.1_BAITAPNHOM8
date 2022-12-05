@@ -1,0 +1,90 @@
+1. Nội dung sinh hoạt lớp 
+- THÔNG BÁO SINH VIÊN ĐĂNG KÝ NỘP PHÍ BẢO HIỂM năm 2023.
+- Thông báo về lịch thi kết thúc học phần học kỳ 1 năm học 2022-2023. Lịch thi dự kiến từ ngày 19/12/2022 đến ngày 8/1/2023. 
+- Nhắc nhở ban cán sự đăng ký nộp Bảo hiểm năm 2023. Nhắc nhở đại diện BCS: "Hội nghị tập huấn về hoạt động phòng, chống HIV, về giáo dục về an toàn giao thông, an ninh mạng. 
+- Triển khai cho sinh viên tìm hiểu kỹ về viễn cảnh sứ mệnh/ triết lý giáo dục. 
+- Thành viên nghỉ: 
+	1. Nguyễn Cẩm Nhung
+	2. Nguyễn Thị Thanh Vân
+	
+- Danh sách sinh viên nghiên cứu khoa học: 
+	1. Phan Huy Nam
+	2. Trần Khánh Huyền
+	3. Phan Hồ Thu Tưởng. 
+
+- Đọc về tài liệu CNN- Mạng thần kinh tích chập (Convolutional neural network). 
++ Mạng thần kinh tích chập, áp dụng phổ biến để phân tích hình ảnh trực quan, là một mô hình
+- Tìm hiểu về Convolutional: 
++ Cấu trúc mạng CNN một lớp Convolution chồng lên nhau và sử dụng hàm nonlinear activation như ReLU và tanh để kích hoạt sẽ tạo râ thông tin trừu tượng hơn cho các lớp tiếp theo.
+
+ + Mô hình này gọi là mnagj kết nối đầy đủ hay toàn vẹn. Trong mô hình CNNs thì ngược lại. Các layer liên kết được với nhau thông qua cơ chế convolution. 
+
+ + Trong quá trình huấn luyện (training) CNN tự động học các lớp filter dựa vào cách thức bạn thực hiện. Ví dụ trong tác vụ phân lớp ảnh. 
+
+
+- Trong mô hình CNN có 2 khía cạnh cần quan tâm là "tính bất biến" và "tính kết hợp", poolling layer sẽ cho bạn tính bất biến đối với phép dịch chuyển "translation), phép quay và phép co giãn (scaling). Tính kết hợp cục bộ các cấp độ biểu diễn thông tin từ mức độ thấp đến mức độ cao và trừu tượng hơn thông qua convolution từ các filter. 
+
+- Mạng CNN sử dụng 3 ý tưởng cơ bản: 
+
++ Các trường tiếp nhận cục bộ. 
++ Trọng số chia sẻ 
++ Tổng hợp. 
+
+- Học sâu (deep learning) - thuật toán mạng nơron tích chập. 
++ Quy trình tự CNN để phân loại các chữ số viết tay. 
++ Có thể lấy hình ảnh đầu vào, gán độ quan trọng (các trọng số- weights và độ lệch- bias có thể học được) cho các đặc trưng/ đối tượng khác nhau trong hình ảnh  và có thể phân biệt đối tượng này là như sau. 
+
++ Công việc tiền xử lý được yêu cầu cho mạng nổn tích chập thì ít hơn nhiều so với các thuật toán phân loại khác. 
+
+
++ Tại sao ConvNet mà không phải là mạng nơron đa lớp (MLP). 
+	pixel: cũng là một đơn vị đo lường thường được sử dụng trong thiết kế đồ hoạ và web, được sử dụng để đảm bảo một phần tử nhất định có cùng kích thước bất kể độ phân giải màn hình xem phần tử. 
+
+	Ý nghĩa của pixel trong phân giải thiết kế và in ấn. 
+
+
++ Lớp tích chập- bộ lọc. 
++ Độ dài dải trượt. 
++ Lớp kết nối đầy đủ. 
+
+- CNN: Mạng thần kinh tích chập. 
+- Thuật toán (LeNet, AlexNet...). 
+	+ Thuật toán LeNet: Bài toán nhận dạng ảnh chữ số viết tay. 
+		-->  Một khối các tầng tích chập 
+		--> Một khối các tầng kết nối đầy đủ. 
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

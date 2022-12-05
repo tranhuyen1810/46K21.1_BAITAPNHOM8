@@ -1,0 +1,25 @@
+* Thay đổi phông chữ của SQL 
+Tool --> Option --> Tab table/queries --> quẻy déign font. 
+
+
+PHẦN I: FUNCTION
+
+Bài 1. Hãy viết một Function để tách tên của sinh viên từ Họ và tên (giả sử cột TenSV đang lưu Họ và tên của SV). Sau đó sử dụng hàm đó để viết 1 câu truy vấn liệt kê danh sách Sinh viên của lớp có tên là ‘TTD56’ được sắp xếp theo thứ tự alphabet của Tên sinh viên.
+Bài 2. Hãy viết 1 hàm để tính tuổi của 1 người dựa vào năm sinh. Sau đó sử dụng hàm đó hãy viết 1 câu truy vấn để liệt kê danh sách các Sinh viên (MaSV, TenSV, Tuoi, Gioitinh) của các sinh viên đăng ký học môn có mã là ‘MH001’ ở kỳ 3.
+Bài 5. Hãy thêm 1 bảng mới có cấu trúc như sau: Thong_Ke(MaSV, Nam1, Nam2, Nam3, Nam4, Nam5, Tong) để lưu lại thống kê về số lượng tín chỉ mà từng SV đã đăng ký theo từng năm và tổng số tín chỉ đăng ký (Trong đó: Cột Nam1 sẽ lưu tổng số tín chỉ đã đăng ký trong năm học thứ 1, . . ., cột Tong sẽ lưu tổng số tín chỉ đã đăng ký đến thời điểm hiện nay). Hãy viết 1 stored procedure để Insert dữ liệu vào cho bảng này.
+Bài 3. Xét bài số 5 ở ở trên : insert dữ liệu cho bảng Thong_Ke(MaSV, Nam1, Nam2, Nam3, Nam4, Nam5, Tong). Hãy viết 1 hàm với tham số đầu vào là (MaSV, Nam) để tính tổng số tín chỉ mà sinh viên đó đã đăng ký trong năm tương ứng. Sau đó sử dụng hàm này để Insert dữ liệu cho bảng trên chỉ bằng 1 câu truy vấn.
+PHẦN I: TRIGGER
+
+Bài 1. Hãy viết một Trigger để đưa ra câu thông báo khi Xóa 1 bản ghi khỏi bảng Monhoc
+Bài 2. Hãy viết trigger để tự động kiểm tra khi Insert một bản ghi vào bảng Dangky nếu Hocky>10 hoặc <0 thì không được phép Insert (dùng lệnh ROLLBACK TRAN)
+Bài 3. Hãy viết trigger để tự động kiểm tra khi Insert một bản ghi vào bảng Dangky nếu Mã môn học không có trong bảng Monhoc thì không được phép Insert (dùng lệnh ROLLBACK TRAN)
+Bài 4. Hãy viết trigger để tự động kiểm tra khi Delete một bản ghi ở bảng Monhoc, nếu Môn học đó đã được Sinh viên đăng ký thì không được phép Delete (dùng lệnh ROLLBACK TRAN)
+Bài 5. Hãy viết trigger để tự động xóa tất cả Sinh viên của 1 lớp khi Delete một bản ghi ở bảng Lop tương ứng với lớp đó.
+Bài 6. Hãy viết trigger để tự động cập nhật lại Mã lớp của tất cả Sinh viên của 1 lớp khi Update lại mã lớp của bản ghi tương ứng với lớp đó ở bảng Lop.
+Bài 7. Hãy viết trigger để tự động cập nhật lại Số SV (cộng thêm 1) của 1 lớp ở bảng Lớp khi thêm 1 sinh viên của lớp đó vào bảng Sinhvien. Tương tự viết Trigger cho trường hợp xóa 1 SV khỏi bảng Sinhvien.
+thank cả nhà
+
+-- khoá ngoại: 
++ Là tham chiếu khoá chính đến một bảng khác 
++ vô cùng là khoá ngoại 
++ Chìa khoá là tham chiếu đến khoá chính 

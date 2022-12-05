@@ -1,0 +1,71 @@
+Buổi 3: 
+A- Nhúng hàm trong câu truy vấn: 
+* Một số hàm thông dụng: 
++ Chuỗi
++ Số
++ Thời gian
+
+* Giới thiệu 2 hàm: 
+- Hàm đảo ngược chuỗi (reverse) --> hàm đảo ngược chuỗi. 
+- Hàm charindex: Tìm sự xuất hiện đầu tiên trong chuỗi, Cắt ra tên khách hàng và có đặc điểm, 
+xem hàm từ trong ra. 
+- datediff()
+
+* Các hàm gộp
+- Gộp đơn giản. 
+- Gộp theo nhóm. 
+  Gộp theo nhóm dữ 
+
+* Hiển thị DSKH có cùng chi nhánh với Trần Văn Thận Thanh 
++ Bảng
++ Cột: 
++ Điều kiện
+
+Thể hiện sub- query- Vị trí nằm ở câu lệnh (select) 
+
+Buổi 4: 
+- Biến vô hướng: 
+	Có 3 cách khai biến 
+	- Gán khi khai báo 
+	- dùng lệnh Set
+		vd: set @a = cust_id
+	- dùng lệnh select. 
+		select @var1 = col from 
+	* Sự khác biệt set và select: 
+		- 1 lệnh set chỉ gán cho 1 biến 
+		- select gán cho nhiều biến. 
+
+- Biến gán cho giá trị table: 
+Insert into @hana value (1,2,3)
+Insert into @na select Cust_id from hocsinh
+Update @khuyen set cust_id from customer. 
+delete @vien where đk khoa from masv. 
+select 
+
+
+Quy trình xây dựng ERM: 
+Cách 1: Thực hiện đồng thời 
+-- Danh mục hồ sơ, Nội dung hồ sơ, chọn lọc thông tin. 
+-- Nói về dạng chuẩn, 
+-- vẽ sơ đồ dạng chuẩn. 
+-- Cột nào có kiểu dữ liệu như làm sao. 
+
+-------------------------------(cần thiết có review)------------------- 7/12 trao đổi. Câu R7. 
+-------------------------------Quản lý giao tác trong cơ sở dữ liệu(1)------------------------ Tương tranh(1) --------------Bảo mật(1)----------------- 
+Nội dung chính: 
+- Khái niệm giao tác 
+- Các tính chất giao tác. 
+- Nguyên lý hoạt động. 
+- Quản lý giao tác trong SQL Server. 
+
+----------Tính chất quán: dữ liệu trc g
+Giao dịch và sau giao dịch trước sau như một 
+-- Giao tác chuyển khoản: 
+
+begin transactions 
+
+
+
+
+
+

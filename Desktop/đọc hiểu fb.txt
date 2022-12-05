@@ -1,0 +1,102 @@
+- Học chắc những môn căn bản. 
+- Học tốt Tiếng ANh
+- Học cách tìm hiểu thị trường: 
++ Đọc khảo sát của 1 số trang chuyê về việc làm TopDev.. 
++ Thứ 2, tham khoả các tin tuyển dụng để biết công ty họ cần tuyển người có kỹ năng để trau dồi. 
+- Tự học, tự trang bị kỹ năng cần thiết; 
++ xác định thứ cần học: Chọn ra một ngôn ngữ, một framwork, đào sâu để học 
++ Xác định con đường: Muốn làm back-end dev, cần tìmm hiểu giải thuật --> Tìm hiểu thư viện 
++ Xác định lại bản thân. 
+
+=========================================
+- Tìm việc, thực tập trong 2 năm cuối. 
+==========================================
+Bài viết: Đối phó với những người luôn thể hiện cảm xúc tiêu cực không lành mạnh.
+1. Bình tĩnh, giữ thái độ lạc quan. 
+2. Bày tỏ quan điểm: 
+Bạn nên nói với người đó một cách trực tiếp với thái độ không gay gắt hoặc kích động. Cố gắng tập trung vào chính bạn thay vì tập trung vào người đó. Cách tốt nhất là hãy bám vào sự thực và đưa ra dẫn chứng.
+3. Cởi mở hơn với họ: 
+
+Nếu là những người quan trọng với bạn, hãy giúp họ cởi bỏ nút thắt, bởi hành vi hung hăng thụ động thường là một chiến thuật đối phó của những người từng trải qua những trải nghiệm tiêu cực khiến họ có cảm giác yếu đuối và bất lực.
+
+4. mối quan hệ này có đáng giữ hay không? 
+
+
+Bài viết 2: HÃY COI PHIỀN MUỘN NHƯ MỘT BÀI HỌC TRONG CUỘC SỐNG: 
+"kẺ YẾU thế tử bỏ chủ động vì phiền muộn nhưng lại đánh mất tâm trạng hưởng thụ niềm vui. Kẻ mạnh học được cách tồn tại nhờ phiền muộn, có khả năng nhìn thế giới bằng đôi mắt lạnh lùng và bản lĩnh bình tĩnh xử lý mọi việc. 
+
+-------------
+26/10/2022
+- Khái quát về NCKH cho sinh viên 
+1. Bắt đầu một bài nghiên cứu khoa học như thế nào?
+- Tìm một lĩnh vực, chủ đề bạn quan tâm 
+- Đọc tài liệu. 
+- Liên hệ và làm việc với GVHD
+
+2. Tìm hiểu tài liệu ntn? 
+- Dùng Google Scholar
+Phần 1:  https://bit.ly/34d0eLo
+Phần 2:  https://bit.ly/30qkY1c
+
+
+3. Nguồn báo nào tin cậy? Làm sao để kiểm tra. 
+- Công cụ để kiểm tra xem tài liệu đang đọc có tin cậy: 
++ Impact factor (IF) hoặc Jouenal Impact (JIF) 
++ Scimago Journal & Country Rank (SJK) 
+
+4. Đọc tài liệu như thế  nào? 
++ Một bài publication trung bình có độ dài từ 10-20 trang 
++ Abstract: Giới thiệu sơ về đề tài. 
++ Model (nếu có) Một số bài có vẽ model để thể hiện một số quan hệ giữa các biến, nhìn model sẽ hiểu mục đích nghiên cứu khoa học. 
++ Finding: Tìm hiểu bài báo có gì mới, đã tìm được cái gì rồi, hướng đi có gì khác so với thông tin trc đây 
+
+5. Phần Introduction 
+- Vấn đề mình muốn nghiên cứu là gì? 
+- Literature  gap là gì? 
+- Tại sao người ta nên đọc nghiên cứu này. 
+
+A- Literature  gap là gì? 
+- Những kiến thứccần đọc về nghiên cứu này. 
+- Các yếu tố ảnh hưởng lên nhau trong bài viết của mình là gì? 
+- Mô hình lý thuyết. 
+
+B- CONCLUSION, LIMITTATION 
+-- Phần này discission có thể bị lặp lại và có thể gộp 2 cái  này vào một tuỳ trường hợp. 
+
+-- Nghiên cứu này sẽ đóng góp được gì cho khoa học, nghành nghề. 
+
+- Nghiên cứu sẽ đóng góp được gì cho lợi ích kinh tế. 
+- Khoá học nghiên cứu khoa học và công bố quốc tế (được tổ chức từ ngày 6/11 --> 12/11) -- khoá học 6 ngày. 
+
+Bài giảng 1: Tổng quan qui trình nghiên cứu: qui trình, ý tưởng, đánh giá.
+Bài giảng 2: Các mô hình nghiên cứu.
+Bài giảng 3: Khái niệm bias và confounder. 
+Bài giảng 4: Thu thập và quản lí dữ liệu. 
+Bài giảng 5: Phân tích dữ liệu 1.
+Bài giảng 6: Giới thiệu JASP. 
+Bài giảng 7: Hiển thị dữ liệu.
+Bài giảng 8: Phương pháp ước tính cỡ mẫu.
+Bài giảng 9: Cách viết đề cương nghiên cứu.
+Bài giảng 10: Cấu trúc IMRaD của một bài báo khoa học.
+Bài giảng 11: Cách viết phần Dẫn nhập và Bàn luận. 
+Bài giảng 12: Cách viết phần Phương pháp.
+Bài giảng 13: Cách viết phần Kết quả.
+Bài giảng 14: Cách viết bản Tóm tắt.
+Bài giảng 15: Nguyên tắc đặt tựa đề bài báo khoa học. 
+Bài giảng 16: Tiếng Anh trong khoa học.
+Bài giảng 17: Tiêu chuẩn chọn tập san khoa học.  
+
+C- BÀI VĂN ĐẠT GIẢI NHẤT QUỐC GIA: 
+
+Giá trị của một nghệ thuật trước hết giá trị tư tưởng của nó. Nhưng tư tưởng được rung lên các cung bậc của tình cảm, chứ không phải tư tưởng thẳng đơ trên giấy. 
+
+
+
+
+
+
+
+
+ 
+
+

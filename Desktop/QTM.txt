@@ -1,0 +1,157 @@
+IPCONFIG: Xem cấu hình mạng 
+IPCONFIG/ALL: 
+
+* Tạo Ou và thiết lập Quota cho user cho windown server: 
+- quota: Hạn nghạch thương mại/ Cung cấp cho quản trị viên khả năng theo dõi, điều khiển không gian sử dụng đĩa cứng của 
+người dùng. Từ đó việc sử dụng đĩa cứng trở nên vô cùng hiệu quả và tiết kiệm chi phí nâng cấp đĩa cứng. 
+- Cấp hạn nghạch cho mỗi cá nhân tối đa 1 GB. 
+* Hướng dẫn kết nối chia sẻ dữ liệu server 2014- win 10. 
+Bước 1: Đặt IP 2 máy. 
+- Server: 192.168.1.20/255.255.255.0
+- Win 10: 192.168.1.120/255.255.255.0
+
+
+* Lưu ý: Trong VMware chỉnh setting card mạng cùng VMNET1 cho 2 máy. 
+
+Bước 2: Ping kiểm tra kết nối: 
+- Mở cmd ping 192.168.1.20
+- Lệnh Ping. (Tắt firewall trên 2 máy)
+
+Bước 3: Tạo thư mục share trên máy Server. 
+-  Share: Everyone (Full Control) 
+- Security: Everyone (Full control)
+
+Buổi 3: Bài tập nhóm. 
+
+1. Nối dây 
+- Win 10: laptop SVA.
+Tắt wifi --> đặt IP hữu tuyến ethernet.  pin 192.168.1.STT+1
+
+4. SV A --> Mở Clent (Chuyển sang kết nối BRIDGED)
+
+
+------------------ MẬT KHẨU --------------------
+-mK SERVER: qtm2@2022
+-mk win 10 Administrator: qtm@2022
+
+-------------------------------------------- QUẢN TRỊ MẠNG 7/11/2022 --------------------
+
+LAB 5.1. Cài đặt và quản trị IIS Server
+– LAB 5.2. Cấu hình Site và SubDomain
+– LAB 5.3. Cài đặt và cấu hình FTP Server
+– LAB 5.4. Quản trị FTP Server
+
++ iiS CÓ VAI TRÒ LÀ MỘT DỊCH VỤ WEB, CHO PHÉP TRIỂN KHAI SERVER PHỤC VỤ CÁC ỨNG DỤNG WEB 
++ IIS: CÓ 2 PHIÊN BẢN CHẠY TRÊN CLIENT VÀ PHIÊN BẢN CHẠY TRÊN HĐH SERVER. 
++ IIS: LÀ MỘT DỊCH VỤ WEB --> CHO PHÉP TRIỂN KHAI WEB SERVER. 
+
+- thực hiện cấu hình site:
++ Thêm mới một website trong iis 
++ Thuê một web hosting --> hgb 
+
+đặt web server: 
+web hosting : dịch vụ lưu trữ web 
+
+http:/localhost
+
+Tên máy: (hostname) server200 localhost
+IP: 192.168.1.200 và Ip trong 127.0.0.1
+
+* Thư mục website: 
+- Công ty A
+tạo file text --> index.htm / allfile 
+tự động đi tìm cac file: 
+index. * 
+đi tìm các tập tin htm, html, asp, asxp, jsp, php .... 
+join domain để tên miền --> thì vào trang web: 
+Thì phải cấu hình 
+
+Viết từ tên miền 
+https:// due.udn.vn 
+httts:// toancau.com.vn
+port: cổng logic - có dịch 
+
+Mặc định web có cổng là 80 
+http:// due.udn.vn: 80
+
+-- Cổng logic: Phân mục đối tượng mạng, phân mạng các dịch vụ mạng. 
+80: cho HTTP- TCP/Ip: Chính là cổng logic
+
+-- kiểm tra máy trạm: 
+B1: cmd 
+B2: eplore trc --> kiểm tra theo http: // 192.168.1.20 
+ 
+
+----
+Bước 1: Tạo thư mục A: 
+Bước 2: tạo file text (lưu chọn nơi lưu --> all files)
+
+bƯỚC 3: tẠO DNS: 
++ tẠO HOST 
++ tẠO DNS
+
+BƯỚC 4: ADD NEW SITE: 
++ CHỌN TÊN 
++ CHỌN CỔNG
++ cHỌN TÊN MIỀN 
+
+KIỂM TRA WEB TRÊN SERVER A
+KIỂM TRA WEB TRÊN SERVER B
+
+---
+Public hosting
+- web hosting
+- domain 
+- web config -- chứa cấu hình.
+- Tắt firewall trên server.
+ 
+- Kiểm tra trên máy trạm 
++ Truy cập website qua IP 
++ Truy cập website qua domain. 
+
+-- cài tải cute FpT pro -- khi cài trên máy ảo, hỗ trợ người dùng - dưới máy trạm 
+login vào dịch vụ server 
++ Tải file --> extract --> đưa vào win10 --> workstation 
++ Cài VM wire toll ccho phép cài trên máy vật lý và máy ảo 
++ Kéo thả máy vật lý (nhung)
+
+* Cài đặt cute pro 
+- sửa edit 
+vnet 8; nat: chỉ chọn 1 thôi 
+vmnnet 1:chọn bringht
+
+
+----------------------14/11/2022 ------------------------
+
+Cài đặt FPT Server: 
+FPT Server cho phép dơload và upload file giữa máy trạm và  máy chủ . 
+-- Cài đặt mạng trên máy ảo: 
+Vmnet 0: chọn host only 
+Vmnet 1: chọn host only 
+Vmnet 8: chọn NAT
+
+---------------------------------------------------------
+FPT là giao thức truyền tin 
+FPT Server có thể upload thông tin này 
+Web Server --> Web Hosting. 
+
+---------------------------------------------------------
+
+1. Tạo 1 FPT site trên Server 
+2. Tạo tài khoản, phân quyền khai thức thư mục FPT
+3. Truy cập, kiểm tra hoạt động của FPT Server
+
+-------------------------------------------------------- CÀI ĐẶT FPT----------------------
+FpT cho phép tạo máy chủ FPT, cho phép dowload và upload: 
+-- Tạo FPT site: 
+
+
+
+
+
+
+
+
+
+
+

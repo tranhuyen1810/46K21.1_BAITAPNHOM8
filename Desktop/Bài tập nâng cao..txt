@@ -1,0 +1,143 @@
+Tạo roaming profile cho tài khoản người dùng (tên tài khoản)
+- Sự khác biệt về số lượng. 
+- Roaming profile = chuyển vùng sóng. 
+- Sẽ tự động, tự động lưu trên server
+- Ip localhost. 
+
+Phân giải: 
+- Thuận: Domain Name --> IP 
+- Nghịch: Ip --> Doamain Name. 
+- Host là chính
+- Alias là phục
+- Dạng bí danh là câu lệnh nào. 
+
+daotao.misdue.com --> 192.168.1.stt
+create --> tạo thêm nghĩhj 
+
+tạo kinhdoanh.misdue.com 
+kinh doanh
+daotao
+training.misdue.com --> alias -->domain dao tạo --> tạo alias. 
+
+2- kiểm tra dns server: 
+a. Trên server. 
+- create cate: bộ nhớ server. đọc bộ nhớ ram. 
+- all start 
+
+-Vào cmd ns lookup.
+Ping <doamin admin> 
+
+b. Xuống máy trạm cấu hình dns và kiểm tra hoạt động 
+-Log bằng tài khoản user_1. 
+- Dùng lện ns lookup. 
+- Dùng ctrl C- Thoát khỏi tr lookup (dùngthuaan) 
+control -C 
+"-a" Phân giải nghịch. 
+Trên máy trạm, xoá DNS, điều gì xảy ea
+A- Tạo roaming người dùng 
+- Profile: Là cái chứa setting về desktop, data trong my documents và tinh chỉnh của user. Mỗi profile ứng với mỗi user. Khi uểt đăng nhập vào clent thì windown sẽ moi ra cái profile với user đó để chayj. 
+- Thay vì các profile trong máy client thì nó đem máy DC để khi user logon vào bất kỳ máy nào trong mnagj cũng có thể sử dụng màn hình và các cấu hình, data trong mydocument của riêng mh. Toàn bộ thay đổi do user sẽ được save vò profile. 
+
+
+* Cách kiểm tra cấu hình vmware: 
+Help --> About VM ware workation 14. 
+
+* Cách khắc phục tắt mạng khi máy tính sleep: 
+Phương pháp: 
+- Bấm click chuột phải --> Chọn disable (vô hiệu hoá) --> Enable. 
+ 	+ Disable: Tức là tạm đình chỉ một thiết bị phần cứng hoăcj một tính nnawg của chương trình- nó không sẵn sàng để sử dụng. 
+
+"Failed to get exclusive lock on the configuration file. Another VMWARE process might be running" --> Không lấy được khoá độc quyền, khi một khoá khác trên tệp cấu hình, một quy trình vmware khác đang chạy. 
+
+"How To Fix "Virtual machine is busy" in VMware Workstation". Cách sửa fix- How to fix
+
+"Cannot find a valid peer process to connect to"
+- Không tìm thấy quy trình ngang hnagf hợp lệ để kết nối. 
+
+"Activate Windows now"- Click hoạt windown ngay bây giờ. 
+"the activation period has expride" Thời gian kích hoạt đã hết hạn"
+
+"Shutdown Event Tracker"= Trình theo dõi sự kiện tắt máy
+"Failed to get exclusive lock on the configuation file. Another VM ware process might  be running using this configuation"- 
+"Không lấy được khóa riêng trên tệp cấu hình. Một quy trình kho VM khác có thể đang chạy bằng cách sử dụng cấu hình này"
+
+"annot connect the virtual device sata0:1 because no corresponding device is available on the host.
+
+Do you want to try to connect this virtual device every time you power on the virtual machine?"
+	
+"Chú thích kết nối thiết bị ảo sata0: 1 vì không có thiết bị tương ứng nào khả dụng trên máy chủ.
+
+Bạn có muốn thử kết nối thiết bị ảo này mỗi khi bật máy ảo không?
+
+Sửa lỗi 
+"The trust relationship between this workstation and the primary domain failed”
+
+
+"Domain controllers cannot be moved from one domain to another, they must first be demoted. Renaming this domain controller may cause it to become temporarily unavailable to users and computers. For information on renaming domain controllers, including alternate renaming methods, see Renaming a Domain Controller (http://go.microsoft.com/fwlink/?LinkID=177447). To continue renaming this domain controller, click OK"
+
+Bộ điều khiển miền không thể được di chuyển từ miền này sang miền khác, trước tiên chúng phải bị giáng cấp. Đổi tên bộ điều khiển miền này có thể khiến nó tạm thời không khả dụng cho người dùng và máy tính. Để biết thông tin về cách đổi tên bộ điều khiển miền, bao gồm các phương pháp đổi tên thay thế, hãy xem Đổi tên bộ điều khiển miền (http://go.microsoft.com/fwlink/?LinkID=177447). Để tiếp tục đổi tên bộ điều khiển miền này, hãy nhấp vào OK.
+
+domain controller cannot be moved from one domain to another, they must first be demoted. Renaming this doamin controller may cause it to become temporarily unnavailable to users and computers. For information on renamng domain controllers, including alternate renaming method, see help and support. To continue renaming this domain controller, click oK
+
+Bộ điều khiển miền không thể được di chuyển từ miền này sang miền khác, trước tiên chúng phải được hạ cấp. Đổi tên bộ điều khiển domain này có thể khiến nó tạm thời không khả dụng cho người dùng và máy tính. Để biết thông tin về bộ điều khiển miền đổi tên, bao gồm cả phương pháp đổi tên thay thế, hãy xem trợ giúp và hỗ trợ. Để tiếp tục đổi tên bộ điều khiển miền này, hãy nhấp vào oK
+
+-Snapshot: là bản sao của tệp đĩa máy ảo (VMDK) tại một thời điểm nhất định.
+
+Virtual Machine = dịch ra tiếng Việt là máy ảo, đây là một chương trình máy tính (hay còn gọi là client), các chương trình máy tính của máy ảo này sẽ được chạy trên hệ điều hành chủ (còn gọi là host) và được hoạt động riêng biệt với host, có cách thức hoạt động tương tự như một máy tính trong thực tế.
+
+"Windows Explorer encountered a validation error (?)"
+Gặp lỗi xác thực
+
+Cloning Virtual Machines
+Bạn có thể sao chép một máy ảo trong VirtualBox thông qua tính năng Clone (click chuột phải và một máy ảo và chọn Clone), cũng có nghĩa là tạo ra một bản sao của máy ảo nào đó.Sep 6, 2013
+
+Tạo bản sao clone trên vmware
+
+Câu lệnh dcpromo
+
+-----------------------------------
+10/10/2022
+Kiểm tra câu lệnh ipconfig
+ping 192.168.1.10 
+
+----------------------------------
+bài giảng
+tải: 
+add role --> DHCP --> 
+scope là dãy mạng
+
+-----------------------------------
+Dãy IP dãy mạng: 192.12
+Hoạch định Ip cấp phát động sẽ cấp phát 
+10 ip cấp phát tĩnh 
+11-> 254 cấp phát tĩnh 
+
+sử dụng ip liên tục cho 8 ngày sau. 
+kiểm tra kết nối để gia hạn thêm. 
+
+Ipconfig release
+Ipconfig renew
+Ipconfig
+
+Câu 1:
+
+ Quản trị mạng ở phần ping lên request out time: 
+Kiểm tra ở lại firewall --> pivate network --> tắt nó. 
+Nhug mà bật chế bright thì phải tắt nó. 
+
+Đề thi: http://bit.ly/3Gxlj8b
+
+port website : 22
+     FTP: 81
+
+
+
+
+
+
+
+
+
+
+
+
